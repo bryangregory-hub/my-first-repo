@@ -1,12 +1,146 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+    <header >
+        <div><h1 class="h-pos">Welcome To Me</h1>
+        <h3 class="h-pos">Hello Im Bryan im making this so you can know more about me.</h2>
+    </div>   
+    </header>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <style>
+        div{   
+            background-color: rgb(36, 19, 19);
+            border-radius: 5px;
+            color: white;
+            width: 100%;
+            height: 160px;
+        }
+        .background{
+            background-color: rgb(92, 87, 87);
+        }
+        .h-pos{
+            justify-content: center;
+            text-align: center;
+            
+        }
+        .img-size{
+            position: relative;
+            padding: 5%;
+            margin-left: auto;
+            text-align: center;
+            margin-right: auto;
+            display: block;
+            height: auto;
+            width: auto;
+            flex-grow: 1;
+            flex-basis: 15%;
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+        }
+        nav{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        nav a 
+        {
+        text-decoration: none;
+        padding: 15px 25px;
+        text-align: center;
+        background-color: rgb(189, 185, 185);
+        font-size: 30px;
+        color:white;
+        margin: 10;
+        font-family: sans-serif;
+        }
+        nav .dropdown{
+            float: left;
+            overflow: hidden;
+        }
+        nav .dropdown .dropbtn{
+            font-size: 30px;  
+            border: none;
+            outline: none;
+            color: black;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        nav a:hover, .dropdown:hover .dropbtn
+        {
+            background-color: rgb(121, 3, 3);
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: #000000;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            float: none;
+            color: rgb(102, 102, 102);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            
+        }
+        .dropdown-content a:hover {
+            background-color: rgb(0, 0, 0);
+            
+        }
 
-</body>
-</html>
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        nav a:hover {
+        background-color: #000000;
+        color: #00faed;
+        }
+        textarea{
+            resize: none;
+            outline: none;
+            overflow: auto;
+        }
+        body{
+            background-color: rgb(255, 199, 234);
+        }
+        textarea{
+            border-radius: 10px;
+            font-size: 17px;
+        }
+        .submit{
+            border-radius: 10px;
+            font-size: 20px;
+        }
+    </style>
+    <body>
+        <nav class="background">
+        <nav>
+            <a href="https://bryangregorysoh.wixsite.com/website">My portfolio </a>
+            <nav class="dropdown">
+                <button class="dropbtn">Menu
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <nav class="dropdown-content">
+                    <a href="#">Menu</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Logout</a>
+                </nav>
+            </nav>  
+       </nav>
+    </nav>
+       <input type="image" class="img-size" src="https://www.tynker.com/projects/images/4c37078b66f745379b3e7072520017141b6c4793/actor---walking2-copy-copy-copy-copy-copy-copy-copy.png">
+       <br><label for="ama">Ask Me Anything!</label></br>
+       <form action="/action_page.php">
+       <textarea placeholder="Type anything you'll like to ask me...." id ="ama" name ="ama"rows = "4"cols="50" ></textarea>
+       </textarea>
+       <br></br>
+       <input type="submit" class = "submit" value="submit">
+       </form>
+    </body>
+</html> 
