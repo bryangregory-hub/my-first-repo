@@ -5,7 +5,8 @@ Readme template for interactive development module
 
 One or two paragraphs providing an overview of your project. Tell us about your project.
 
-This is my personal portfolio site 
+This is my personal portfolio site i would be showing 3 seprate pages my portfolio website, an about me page and a projects page.
+In this i would be demonstrating different techniques and methods i have learned while using HTML to make a compelling webiste with a consise layout.
 
 Essentially, this part is your sales pitch.
 
