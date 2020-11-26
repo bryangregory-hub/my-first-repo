@@ -35,16 +35,19 @@
             height: 70px;
         }
         .home{
+            
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
             justify-content: flex-start;
+            
         }
         .h-pos{
             text-align: center;
             font-size: auto;
             color: #000000;
+            
         }
         .h-pos2{
             font-size: auto;
@@ -55,7 +58,7 @@
             background-color: rgb(104, 104, 104);
         }
         .home>.img-size{
-            position: absolute;
+            position: relative  ;
             margin: 1%;
             border-style: solid;
             border-width: thick;
