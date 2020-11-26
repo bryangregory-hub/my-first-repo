@@ -7,27 +7,21 @@
         html{
             scroll-behavior: smooth;
             transition-timing-function: ease-in-out 2s;
+            
         }
         .menu{
-            
-            text-decoration: none;
+            overflow: hidden;
+            background-color: #3333;
             top: 0;
-            width: 300px;
-            font-size: 30px;
-            text-align: center;
-            font-family: 'Courier New', Courier, monospace;
+            position: sticky;
+            position: -webkit-sticky;
         }
         
         .menu a{
-            background-color: #9e9e9e;
-            border-radius: 47%;
-            color: black;
-            padding: 50px;
-            text-decoration: none;
             display: block;
-            padding: 10px;
-            list-style: none;
-            
+            color: #f2f2f2;
+            padding: 14px 16px;
+            text-decoration: none;
            
         }
         .menu a:hover
@@ -37,7 +31,6 @@
         .menu li{
             list-style: none;
             
-            height: 70px;
         }
         .home{
             
@@ -168,8 +161,17 @@
             background-color: #555;
           }
           @media screen and (max-width: 600px) {
+              .menu{
+                position: sticky;
+                position: -webkit-sticky;
+                
+              }
             .menu a {
-              float: right;
+              float: left;
+              color: #000000;
+              text-align: center;
+              padding: 20px;
+              text-decoration: none;
               
             }
           }
