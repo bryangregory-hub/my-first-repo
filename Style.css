@@ -340,11 +340,13 @@
             display: none;
           }
         /*aft normalize*/
+        
         body{
             background-image: url('Imgs/background.jpg');
             z-index: 0;
             width: 100%;
-            
+            font-family: cursive, sans-serif;
+            background-color: rgb(77, 77, 77);
         }
         html{
             scroll-behavior: smooth;
@@ -392,6 +394,7 @@
         .h-pos{
             text-align: center;
             font-size: auto;
+            
             color: #000000;
             
         }
@@ -400,6 +403,7 @@
             text-align: center;
             color: rgb(0, 0, 0);
         }
+        
         .border_background{
             background-color: rgb(104, 104, 104);
         }
@@ -423,9 +427,6 @@
             border-radius: 10px;
             font-size: 17px;
         }
-        body{
-            background-color: rgb(77, 77, 77);
-        }
         .container{
             text-align: center;
             border: solid;
@@ -448,11 +449,11 @@
         }
         /*This is my About me back*/
         .Aboutme{
-            text-align: center;
-            font-size: 40px;
-            padding: 50px;
-            box-sizing: border-box;
-        }
+          text-align: center;
+          font-size: 40px;
+          padding: 50px;
+          box-sizing: border-box;
+      }
         
         .center{
             text-align: center;
@@ -465,6 +466,17 @@
             border: 20px solid rgb(145, 145, 145);
             border-radius: 10px;
             vertical-align: middle;
+        }
+        .mdia{
+          vertical-align: middle;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: black;
+          justify-content: flex-start;
+          text-align: center;
+          font-family: Georgia, 'Times New Roman', Times, serif ;
         }
         .text-test{
             display: inline-block;
