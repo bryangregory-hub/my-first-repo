@@ -340,7 +340,7 @@
             display: none;
           }
         /*aft normalize*/
-        
+        /*all body through out the script*/
         body{
             background-image: url('Imgs/background.jpg');
             z-index: 0;
@@ -348,11 +348,13 @@
             font-family: cursive, sans-serif;
             background-color: rgb(77, 77, 77);
         }
+        /*effects the html*/
         html{
             scroll-behavior: smooth;
             transition-timing-function: ease-in-out 2s;
             
         }
+        /*This is my navigation bar*/
         .menu{
             width: 200px;
             overflow: hidden;
@@ -362,6 +364,7 @@
             position: -webkit-sticky;
             margin-top: -200px;
         }
+        /*This effects all the item in the list of the navigation bar*/
         .menu a{
             display: block;
             color: #000000;
@@ -370,16 +373,19 @@
             border-radius: 5px;
             font-size: 25px;
             text-align: center;
-           
+            
         }
+        /*When mouse hover over the navigation bar*/
         .menu a:hover
         {
             background-color: rgb(56, 56, 56);
         }
+        /*removes the styling on the list*/
         .menu li{
             list-style: none;
             
         }
+        /*turning all the items in the inde.html in to a flex box*/
         .home{
             
             display: flex;
@@ -391,6 +397,7 @@
             font-size: 40px;
             padding: 50px;
         }
+        /*adjusting one of the header sizes*/
         .h-pos{
             text-align: center;
             font-size: auto;
@@ -398,12 +405,13 @@
             color: #000000;
             
         }
+        /*adjusting one of the header sizes*/
         .h-pos2{
             font-size: auto;
             text-align: center;
             color: rgb(0, 0, 0);
         }
-        
+        /**/
         .border_background{
             background-color: rgb(104, 104, 104);
         }
